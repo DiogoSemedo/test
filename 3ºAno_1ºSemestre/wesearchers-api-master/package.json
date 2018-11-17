@@ -54,6 +54,8 @@
     "test": "node scripts/test.js --env=jsdom",
     "postinstall":"cd project && cd frontend && npm run build"
   },
+  "engines": { "node": "0.10.x"
+  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
